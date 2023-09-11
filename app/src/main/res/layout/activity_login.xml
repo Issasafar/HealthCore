@@ -6,7 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.login.LoginActivity"
+    android:background="@drawable/banner"
     >
+
+
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,23 +29,22 @@
     android:id="@+id/login_sub_layout"
 
     >
+
     <TextView
         android:id="@+id/headline"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_fonts_family"
         android:gravity="center"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/margin_8dp_size"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/margin_8dp_size"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:text="@string/welcome_back"
-        android:textColor="@color/design_default_color_primary"
-
-        android:textSize="@dimen/headline4"
+        android:textColor="@color/md_theme_light_primary"
+       android:layout_marginTop="@dimen/margin_8dp_size"
+        android:textSize="32sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/login_card"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -201,26 +203,15 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_margin="@dimen/margin_16dp_size"
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/app_icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
-
-
-
-    <!--    <ProgressBar-->
-    <!--        android:id="@+id/loading"-->
-    <!--        android:visibility="gone"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_gravity="center"-->
-    <!--        android:layout_marginTop="64dp"-->
-    <!--        android:layout_marginBottom="64dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="@+id/password"-->
-    <!--        app:layout_constraintStart_toStartOf="@+id/password"-->
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintVertical_bias="0.3" />-->
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

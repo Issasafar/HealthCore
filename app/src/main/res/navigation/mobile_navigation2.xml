@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_reports">
+
+    <fragment
+        android:id="@+id/navigation_reports"
+        android:name="com.issasafar.healthcore.ui.medicalStaff.ui.reports.ReportsFragment"
+        android:label="@string/reports"
+        tools:layout="@layout/fragment_staff_reports" />
+
+    <fragment
+        android:id="@+id/navigation_patients"
+        android:name="com.issasafar.healthcore.ui.medicalStaff.ui.patients.PatientsFragment"
+        android:label="@string/patients"
+        tools:layout="@layout/fragment_staff_patients" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.issasafar.healthcore.ui.medicalStaff.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_staff_profile" />
+</navigation>

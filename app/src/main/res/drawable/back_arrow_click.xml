@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/outline_arrow_back_24_clicked" /> <!--selected text colour-->
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/outline_arrow_back_24_clicked" />
+    <item
+        android:drawable="@drawable/outline_arrow_back_24" /> <!--unselected text colour-->
+</selector>

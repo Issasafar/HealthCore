@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HealthCore" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="icon_tint_color">@color/icon_tint_color</item>
+    </style>
+    <style name="Theme.HealthCore.ActionBar" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="icon_tint_color">@color/icon_tint_color</item>
+    </style>
+    <style name="Theme.HealthCore" parent="Base.Theme.HealthCore" />
+
+    <style name="Theme.HealthCore.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.HealthCore.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.HealthCore.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

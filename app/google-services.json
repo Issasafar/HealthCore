@@ -1,0 +1,185 @@
+{
+  "project_info": {
+    "project_number": "117478015059",
+    "firebase_url": "https://fire-db-proj-default-rtdb.firebaseio.com",
+    "project_id": "fire-db-proj",
+    "storage_bucket": "fire-db-proj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117478015059:android:2bc2ef4969d56670c846a6",
+        "android_client_info": {
+          "package_name": "com.issasafar.dummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzQMcHEQo2dFjuUpwf7Oqjhv0VU6evPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117478015059:android:3b7713453e348544c846a6",
+        "android_client_info": {
+          "package_name": "com.issasafar.firedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzQMcHEQo2dFjuUpwf7Oqjhv0VU6evPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117478015059:android:e126dc9113e0ae02c846a6",
+        "android_client_info": {
+          "package_name": "com.issasafar.healthcore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzQMcHEQo2dFjuUpwf7Oqjhv0VU6evPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117478015059:android:122e7f1f690cbe04c846a6",
+        "android_client_info": {
+          "package_name": "com.issasafar.myapp.firedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzQMcHEQo2dFjuUpwf7Oqjhv0VU6evPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117478015059:android:a960ba8103e8c652c846a6",
+        "android_client_info": {
+          "package_name": "com.issasafar.myapp.mysqlf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzQMcHEQo2dFjuUpwf7Oqjhv0VU6evPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117478015059:android:fc3b237606c736dac846a6",
+        "android_client_info": {
+          "package_name": "com.issasafar.myapp.sqlitef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxzQMcHEQo2dFjuUpwf7Oqjhv0VU6evPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117478015059-bv27nugttaj91srv1e0vpkun3qft4qi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -64,4 +64,6 @@
     <string name="remove">Remove</string>
     <string name="nothing_yet">Nothing yet</string>
     <string name="edit">Edit</string>
+    <string name="your_are_online">Your are online</string>
+    <string name="you_are_offline">You are offline</string>
 </resources>

@@ -30,7 +30,7 @@
                 android:id="@+id/snackbar_message_text"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Back online"
+                android:text="@string/your_are_online"
                 android:textSize="@dimen/subtitle1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

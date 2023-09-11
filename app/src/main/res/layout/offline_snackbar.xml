@@ -29,7 +29,7 @@
         android:id="@+id/snackbar_message_text"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="You are offline"
+        android:text="@string/you_are_offline"
         android:textSize="@dimen/subtitle1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

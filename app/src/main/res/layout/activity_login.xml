@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.login.LoginActivity"
-    android:background="@drawable/banner"
+
     >
 
 
@@ -27,7 +27,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/login_sub_layout"
-
+    android:background="@drawable/banner2"
     >
 
     <TextView
@@ -36,17 +36,18 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_fonts_family"
         android:gravity="center"
-        android:paddingLeft="@dimen/margin_8dp_size"
-        android:paddingTop="@dimen/activity_vertical_margin"
+
+        android:paddingTop="@dimen/margin_8dp_size"
         android:paddingRight="@dimen/margin_8dp_size"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:text="@string/welcome_back"
         android:textColor="@color/md_theme_light_primary"
-       android:layout_marginTop="@dimen/margin_8dp_size"
+
         android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/login_card"

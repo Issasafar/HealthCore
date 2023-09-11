@@ -60,9 +60,10 @@ public class ReportsFragment extends Fragment {
 
                 } else {
                     nothingLayout.setVisibility(View.GONE);
-                    ReportsRecyclerAdapter reportsRecyclerAdapter = new ReportsRecyclerAdapter(list);
-                    recyclerView.setAdapter(reportsRecyclerAdapter);
+
                 }
+                ReportsRecyclerAdapter reportsRecyclerAdapter = new ReportsRecyclerAdapter(list);
+                recyclerView.setAdapter(reportsRecyclerAdapter);
 
             }
 

@@ -31,9 +31,10 @@
                 android:id="@+id/imageView4"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/normal"
+                android:src="@drawable/outline_person_24"
                 android:layout_gravity="center_horizontal"
-                android:layout_margin="@dimen/margin_16dp_size"/>
+                android:layout_margin="@dimen/margin_16dp_size"
+                app:tint="@color/md_theme_light_primary" />
             <View
                 android:layout_marginStart="@dimen/margin_16dp_size"
                 android:layout_marginEnd="@dimen/margin_16dp_size"

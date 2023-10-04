@@ -109,6 +109,7 @@ public class HomeFragment extends Fragment {
                             .setContentText(getString(R.string.nearby_patients_notification_text))
                             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                             .setContentIntent(pendingIntent)
+
                             .setAutoCancel(true);
                     NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(mContext);
 

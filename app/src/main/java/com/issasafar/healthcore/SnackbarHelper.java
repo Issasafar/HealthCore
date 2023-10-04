@@ -33,7 +33,7 @@ public class SnackbarHelper {
 
         snackbar.getView().setBackgroundColor(Color.WHITE);
         FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) layout.getLayoutParams();
-        params.gravity = Gravity.CENTER;
+     //   params.gravity = Gravity.CENTER;
 
         snackbar.show();
     }

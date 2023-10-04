@@ -15,6 +15,7 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.issasafar.healthcore.R;
@@ -89,16 +90,23 @@ public class PatientsRecyclerAdapter extends RecyclerView.Adapter<PatientsRecycl
                     public void onClick(DialogInterface dialogInterface, int i) {
                         Patient patient;
                         int checked = changeHealthGroup.getCheckedRadioButtonId();
-                        if (checked == R.id.healthyButton) {
-                            patientList.get(holder.getAdapterPosition()).setHealthStatus(HealthStatus.HEALTHY);
-                        } else {
-                            patientList.get(holder.getAdapterPosition()).setHealthStatus(HealthStatus.UNHEALTHY);
-                        }
+                        try {
+                            if (checked == R.id.healthyButton) {
+                                patientList.get(holder.getAdapterPosition()).setHealthStatus(HealthStatus.HEALTHY);
+                            } else {
+                                patientList.get(holder.getAdapterPosition()).setHealthStatus(HealthStatus.UNHEALTHY);
+                            }
+
                         patient = patientList.get(holder.getAdapterPosition());
                         String patientId = idList.get(holder.getAdapterPosition());
+
                         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
                         DatabaseReference databaseReference = firebaseDatabase.getReference("users/patient");
                         databaseReference.child(patientId).setValue(patient);
+                        } catch (ArrayIndexOutOfBoundsException e) {
+                            e.printStackTrace();
+
+                        }
                     }
                 });
                 // builder.setView(changeHealthDialogBinding.getRoot());

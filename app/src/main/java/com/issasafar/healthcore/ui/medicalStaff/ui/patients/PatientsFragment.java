@@ -54,8 +54,15 @@ public class PatientsFragment extends Fragment {
                 } else {
                     nothingLayout.setVisibility(View.VISIBLE);
                 }
-                PatientsRecyclerAdapter patientsRecyclerAdapter = new PatientsRecyclerAdapter(patientList, idList, getActivity().getApplicationContext());
-                recyclerView.setAdapter(patientsRecyclerAdapter);
+                try {
+
+
+                    PatientsRecyclerAdapter patientsRecyclerAdapter = new PatientsRecyclerAdapter(patientList, idList, getActivity().getApplicationContext());
+                    recyclerView.setAdapter(patientsRecyclerAdapter);
+                    nothingLayout.setVisibility(View.GONE);
+                } catch (NullPointerException e) {
+                    nothingLayout.setVisibility(View.VISIBLE);
+                }
             }
 
             @Override

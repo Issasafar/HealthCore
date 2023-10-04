@@ -1,5 +1,6 @@
 package com.issasafar.healthcore.ui.patient.ui.profile;
 
+import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,6 +24,7 @@ public class ProfileFragment extends Fragment {
     private final String SHARED_PREF_FILE = "com.issasafar.healthcore";
     private SharedPreferences sharedPreferences;
     private FragmentPatientProfileBinding binding;
+    private final String CHANNEL_ID = "healthCoreNotification";
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -45,7 +47,8 @@ public class ProfileFragment extends Fragment {
         logoutLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                NotificationManager notificationManager = (NotificationManager) getActivity().getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
+                notificationManager.cancelAll();
                 FirebaseAuth.getInstance().signOut();
 
                 Intent i = new Intent(getActivity().getApplicationContext(), MainActivity.class);

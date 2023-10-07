@@ -105,7 +105,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                 }
                 LatLng currentLocation = new LatLng(currentUser.getGpsLocation().getLatitude(), currentUser.getGpsLocation().getLongitude());
+                float zoomLevel = 16f;
                 mMap.moveCamera(CameraUpdateFactory.newLatLng(currentLocation));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, zoomLevel));
                 mMap.addMarker(new MarkerOptions().position(currentLocation).title("YOU: " + currentUser.getHealthStatus().getValue()));
                 if (!nearbyPatientsList.isEmpty()) {
 

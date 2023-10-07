@@ -16,5 +16,6 @@ public class ProfileViewModelFactory implements ViewModelProvider.Factory {
     @Override
     public <T extends ViewModel> T create(Class<T> modelClass) {
         return (T) new ProfileViewModel(mSharedPreferences);
+
     }
 }

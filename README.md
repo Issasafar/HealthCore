@@ -3,15 +3,6 @@
 **HealthCore** is a robust Android application designed to simple health record management. It allows users to store, track, and review health data securely, all from their mobile device.
 
 ---
-
-## 📽 Demo Video
-
-Watch HealthCore in action:
-
-https://github.com/user-attachments/assets/3faeb034-14fc-47bb-8ea0-f4c4b4fa51db
-
----
-
 ## 🖼 Screenshots
 
 Here are some screenshots showcasing key features of the app:
@@ -27,6 +18,15 @@ Here are some screenshots showcasing key features of the app:
   <img src="assets/hc_8.jpg" width="200"/>
   <img src="assets/hc_9.jpg" width="200"/>
 </p>
+
+---
+
+
+## 📽 Demo Video
+
+Watch HealthCore in action:
+
+https://github.com/user-attachments/assets/3faeb034-14fc-47bb-8ea0-f4c4b4fa51db
 
 ---
 

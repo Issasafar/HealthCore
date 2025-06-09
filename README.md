@@ -8,7 +8,7 @@
 
 Watch HealthCore in action:
 
-<video src="assets/hc_demo.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/3faeb034-14fc-47bb-8ea0-f4c4b4fa51db
 
 ---
 

@@ -6,27 +6,18 @@
 ## 🖼 Screenshots
 
 Here are some screenshots showcasing key features of the app:
-<p align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-  <img src="assets/hc_1.jpg" class="phone-img"/>
-  <img src="assets/hc_2.jpg" class="phone-img"/>
-  <img src="assets/hc_3.jpg" class="phone-img"/>
-  <img src="assets/hc_4.jpg" class="phone-img"/>
-  <img src="assets/hc_5.jpg" class="phone-img"/>
-  <img src="assets/hc_6.jpg" class="phone-img"/>
-  <img src="assets/hc_7.jpg" class="phone-img"/>
-  <img src="assets/hc_8.jpg" class="phone-img"/>
-  <img src="assets/hc_9.jpg" class="phone-img"/>
-  <style>
-  .phone-img {
-    width: 150px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  }
-</style>
+<p align="center">
+  <img src="assets/hc_1.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_2.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_3.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_4.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/><br><br>
+  <img src="assets/hc_5.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_6.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_7.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_8.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
+  <img src="assets/hc_9.jpg" width="150" height="300" style="object-fit:cover; border-radius:30px; box-shadow:0 4px 10px rgba(0,0,0,0.2);"/>
 </p>
+
 
 
 

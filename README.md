@@ -16,9 +16,7 @@ Here are some screenshots showcasing key features of the app:
   <img src="assets/hc_7.jpg" class="phone-img"/>
   <img src="assets/hc_8.jpg" class="phone-img"/>
   <img src="assets/hc_9.jpg" class="phone-img"/>
-</p>
-
-<style>
+  <style>
   .phone-img {
     width: 150px;
     height: 300px;
@@ -28,6 +26,9 @@ Here are some screenshots showcasing key features of the app:
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   }
 </style>
+</p>
+
+
 
 
 ---
